@@ -1,4 +1,4 @@
-# NoSQL Social Network API
+# My React Portfolio
 
 ## Description
 This is a repository for Challenge 20 which is a React-based Portfolio.
