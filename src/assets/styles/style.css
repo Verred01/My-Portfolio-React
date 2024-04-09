@@ -1,0 +1,152 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+}
+
+#root {
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 1px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+form div {
+    padding: 5px 10px;
+}
+
+form input {
+    border-radius: 20px;
+}
+
+form textarea {
+    border-radius: 20px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.profile p {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 120px;
+    background-color: #9d00ff;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding: 0px 30px;
+    outline: 3px solid black;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 987px) {
+    header {
+        height: 150px;
+    }
+}
+
+header h1 {
+    margin: auto 0;
+    background-color: #9d00ff;
+}
+
+header div {
+    background-color: #9d00ff;
+}
+
+header p {
+    background-color: #9d00ff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9d00ff;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+@media screen and (max-width: 987px) {
+    footer h4 {
+        padding-right: 50px;
+    }
+}
+
+footer h4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: baseline;
+    background-color: #9d00ff;
+    font-size: 30px;
+}
+
+footer a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.navigate {
+    background-color: #9d00ff;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #9d00ff;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 987px) {
+    img {
+        width: 150px;
+        height: 200px;
+        padding: 5px;
+    }
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+a {
+    color: #640088;
+    background-color: #9d00ff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 987px) {
+    a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
