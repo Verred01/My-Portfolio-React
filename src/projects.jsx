@@ -1,3 +1,4 @@
+import plumbing from './assets/images/plumbing.png'
 import fists from './assets/images/Fists of Forecast.png'
 import hellsGate from './assets/images/hellsGate.png'
 import weatherDB from './assets/images/weather-dashboard.png'
@@ -5,6 +6,13 @@ import passwordGen from './assets/images/passwordgen.png'
 import bookSearch from './assets/images/book-search.png'
 
 const projects = [
+    {
+        title: "Plumbing Store Redesign Project",
+        url: "https://plumbing-store-front-1.onrender.com",
+        repo: "https://github.com/cosmonaut1917/Plumbing_store_front",
+        description: "This is the repository for project 3 of the coding bootcamp. This is a plumbing store front project that can work with the salesforce of the company and have users oorder different supplies from the companies suppliers.",
+        image: plumbing
+    },
     {
         title: "Fists of Forecast",
         url: "https://verred01.github.io/Fists-of-Forecast/",
