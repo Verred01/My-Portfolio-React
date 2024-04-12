@@ -13,7 +13,6 @@ function Projects({ projects }) {
             <a href={project.url}>
               <img
                 src={project.image}
-                alt={`Project ${project.title}`}
                 onError={(e) => console.log('Error loading image:', e.target.src)}
               />
             </a>

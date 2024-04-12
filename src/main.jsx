@@ -9,6 +9,7 @@ import Error from './pages/Error';
 import Projects from './pages/Projects';
 import projectData from '../src/projects';
 
+// this is the router that will be used to navigate between pages
 const router = createBrowserRouter([
   {
     path: '/',

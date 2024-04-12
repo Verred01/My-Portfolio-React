@@ -2,14 +2,14 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Navigate() {
   const currentPage = useLocation().pathname;
-
+// this is the navigation bar that will be displayed on the top of the page
   return (
     <ul className="nav navigate">
 
       <li className="nav-item">
+        {/* this links to the about page */}
         <Link
           to="/"
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
           About
@@ -17,9 +17,9 @@ function Navigate() {
       </li>
 
       <li className="nav-item">
+        {/* this links to the projects page */}
         <Link
           to="/Projects"
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}
         >
           Projects
@@ -27,9 +27,9 @@ function Navigate() {
       </li>
 
       <li className="nav-item">
+        {/* this links to the contact page */}
         <Link
           to="/Contact"
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact

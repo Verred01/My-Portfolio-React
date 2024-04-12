@@ -1,13 +1,12 @@
 import '../App.css'
 import {useState} from 'react';
 
-
 export default function Contact() {
-// Define state for each input field
+// this is the contact form that will be displayed on the contact page
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 const [message, setMessage] = useState('');
-
+// this function will handle the submit button
   const handleSubmit = (event) =>{
     event.preventDefault();
     console.log("submit button")
@@ -15,8 +14,7 @@ const [message, setMessage] = useState('');
     setEmail('');
     setMessage('');
   }
- 
-
+// this is the form that will be displayed on the contact page
 return (
   <div>
     <h1>Contact Page</h1>
